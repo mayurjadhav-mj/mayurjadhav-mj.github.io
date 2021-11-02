@@ -1,15 +1,331 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Service Design for Society</title>
-  <base href=".">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!-- <link rel="icon" href="sds-icon.svg" sizes="any" type="image/svg+xml"> -->
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-<link rel="stylesheet" href="styles.de834809726cbdb46ca8.css"></head>
-<body>
-  <app-root></app-root>
-<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.3110251789c444304a64.js" defer></script><script src="main-es2015.ba967628e78e18f609db.js" type="module"></script><script src="main-es5.ba967628e78e18f609db.js" nomodule defer></script></body>
+    <head>
+        <meta charset="utf-8">
+        <title>Mayur Jadhav Personal Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Mayur Jadhav, Resume, Website" name="keywords">
+        <meta content="CV of Mayur Jadhav" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Mayur Jadhav</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">What I Do</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Mayur Jadhav</h1>
+                                <h2></h2>
+                                <div class="typed-text">Full-Stack Developer, Angular 6+ and Bootstrap4, SpringBoot and Hibernate, Android Development, Restful Web Services, Online Gaming</div>
+                            </div>
+                            <div class="hero-btn">
+                                <!-- <a class="btn" href="">Hire Me</a> -->
+                                <a class="btn" href="mailto:jadhav.mayur135@gmail.com">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/img2-removebg-preview.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/img3.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>7 Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>SpringBoot</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Hibernate</p><p>95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Angular 6</p><p>60%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Android Development</p><p>60%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <!-- <a class="btn" href="">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- Service Start -->
+        <div class="service" id="service" >
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I do</p>
+                    <h2>Work Exposures</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Backend Development</h3>
+                                <p>
+                                   SpringBoot, Hibernate, Java with exposure to databases like Mysql, Oracle DB and Postgres.
+                                </p> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Android App Development</h3>
+                                <p>
+                                    Exposure to android application development from multi-stakeholder perspective
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Cloud Hosting</h3>
+                                <p>
+                                    Cloud hosting with Heroku. Devops and CICD with gitlab over containers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Education Qualification and Work Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2018-03<sup>rd</sup>November 2021</div>
+                            <h2>IT Analysts at TRDDC</h2>
+                            <h4>Tata Research and Development Design Center</h4>
+                            <p>
+                                Full-Stack Developer with backend technology as SpringBoot, Hibernate, MYSQL, Postgres Database and FrontEnd Technology like Angular 8+, Bootstrap 4 and Microservices. Devops and CICD with Gitlab, Hosting application over container.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2014-2018</div>
+                            <h2>System Engineer at TRDDC</h2>
+                            <h4>Tata Research and Development Design Center</h4>
+                            <p>
+                                Full-Stack Developer with backend technology as Struts 2, Hibernate, MYSQL Database and FrontEnd Technology like Angular 2+, Bootstrap 3. Exposure to Android application development.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2011-2014</div>
+                            <h2>B.E. in Electronics and Telecommunication</h2>
+                            <h4>Lokmanya Tilak College of Engineering, Koparkhairne</h4>
+                            <p>
+                                Secured first class in overall course
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2008 - 2011</div>
+                            <h2>Diploma in Electronics & Tele-communication</h2>
+                            <h4>Institute of Technology, Ulhasnagar</h4>
+                            <p>
+                                Secured First Class with Distinction scoring 83.45%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2007-2008</div>
+                            <h2>SSC (10th Standard)</h2>
+                            <h4>Model English High School</h4>
+                            <p>
+                                Secured First Class with Distinction scoring 83.69%
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2007-2008</div>
+                            <h2>SSC (10th Standard)</h2>
+                            <h4>Model English High School</h4>
+                             <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p> 
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+        
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Pune </h2>
+                        <h3>Maharashtra, India - 411015</h3>
+                        <div class="footer-menu">
+                            <p><a href="tel:+918655339427">+91 8655339427</a></p>
+                            <p> <a href="mailto:jadhav.mayur135@gmail.com">jadhav.mayur135@gmail.com</a></p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://twitter.com/Mayur_JadhavMJ"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/mayur.jadhav.58367"><i class="fab fa-facebook-f"></i></a>
+                            <!-- <a href=""><i class="fab fa-youtube"></i></a> -->
+                            <a href="https://www.instagram.com/_mayur_mj/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/mayur-jadhav~/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p><!-- &copy; <a href="#">Your Site Name</a>, All Right Reserved | --> Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
